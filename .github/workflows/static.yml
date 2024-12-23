@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishwajeet Pratap Singh</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        main {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        section h2 {
+            color: #444;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 0.5rem;
+        }
+        .skills img,
+        .contact img {
+            width: 48px;
+            height: 48px;
+            margin-right: 8px;
+        }
+        .skills p,
+        .contact a {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hi, I'm Vishwajeet Pratap Singh! 👋</h1>
+    </header>
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>I am a passionate software developer with expertise in Java, Spring Boot, and RESTful APIs. I specialize in building secure, scalable, and high-performance applications, with hands-on experience in database management, server monitoring, and microservices architecture. My focus is on delivering efficient and innovative software solutions while maintaining high standards of data security and performance optimization.</p>
+        </section>
+
+        <section>
+            <h2>🛠️ Skills & Technologies</h2>
+            <h3>Programming Languages:</h3>
+            <p class="skills">
+                <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" alt="Java">
+                <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript">
+                <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="HTML5">
+                <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS3">
+            </p>
+
+            <h3>Frameworks & Libraries:</h3>
+            <p class="skills">
+                <img src="https://img.icons8.com/color/48/000000/spring-logo.png" alt="Spring Boot">
+                <img src="https://img.icons8.com/color/48/000000/hibernate.png" alt="Hibernate">
+            </p>
+
+            <h3>Database Management:</h3>
+            <p class="skills">
+                <img src="https://img.icons8.com/color/48/000000/postgresql.png" alt="PostgreSQL">
+                <img src="https://img.icons8.com/color/48/000000/oracle-logo.png" alt="Oracle">
+                <img src="https://img.icons8.com/color/48/000000/sap.png" alt="SAP HANA">
+                <img src="https://img.icons8.com/color/48/000000/redis.png" alt="Redis">
+            </p>
+
+            <h3>DevOps & Tools:</h3>
+            <p class="skills">
+                <img src="https://img.icons8.com/color/48/000000/docker.png" alt="Docker">
+                <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git">
+                <img src="https://img.icons8.com/ios-glyphs/48/000000/github.png" alt="GitHub">
+                <img src="https://img.icons8.com/color/48/000000/apache-maven.png" alt="Maven">
+                <img src="https://img.icons8.com/color/48/000000/gradle.png" alt="Gradle">
+                <img src="https://img.icons8.com/dusk/48/000000/postman-api.png" alt="Postman">
+            </p>
+
+            <h3>Monitoring & Security:</h3>
+            <p class="skills">
+                <img src="https://img.icons8.com/color/48/000000/prometheus-app.png" alt="Prometheus">
+                <img src="https://img.icons8.com/color/48/000000/grafana.png" alt="Grafana">
+                <img src="https://img.icons8.com/color/48/000000/micrometer.png" alt="Micrometer">
+                <img src="https://img.icons8.com/ios-filled/48/000000/kafka.png" alt="Kafka">
+                <img src="https://img.icons8.com/windows/48/000000/shield-security.png" alt="Spring Security">
+            </p>
+
+            <h3>Cloud Platforms:</h3>
+            <p class="skills">
+                <img src="https://img.icons8.com/color/48/000000/azure-1.png" alt="Azure">
+            </p>
+        </section>
+
+        <section>
+            <h2>💼 Professional Experience</h2>
+            <h3>Associate Developer Intern at Maya Data Privacy (Dec 2023 - Present)</h3>
+            <ul>
+                <li>Designed a secure license validation system using RSA cryptography and digital signatures, reducing invalid licenses by nearly 100%.</li>
+                <li>Developed server monitoring with Docker, Prometheus, and Grafana for Kafka tracking.</li>
+                <li>Automated data configuration with PII detection, saving 95% of user effort.</li>
+                <li>Built scalable APIs, achieving 30% improved query performance.</li>
+                <li>Engineered robust APIs to ensure business continuity.</li>
+                <li>Mapped users to organizations for 100% improved access management.</li>
+                <li>Enhanced security protocols with JWT, reducing unauthorized access.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>🌟 Projects</h2>
+            <ul>
+                <li><strong>IPL Auction Application:</strong> Java, Spring MVC, PostgreSQL, HTML, CSS</li>
+                <li><strong>Banking Application:</strong> Java, Hibernate, PostgreSQL, HTML, CSS</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>📫 Contact Me</h2>
+            <p class="contact">
+                <a href="https://github.com/vishwajeetdev"><img src="https://img.icons8.com/ios-glyphs/48/000000/github.png" alt="GitHub"></a>
+                <a href="https://linkedin.com/in/vishwajeetdev"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn"></a>
+                <a href="mailto:vishwajeet.devv@gmail.com"><img src="https://img.icons8.com/color/48/000000/gmail-new.png" alt="Email"></a>
+            </p>
+        </section>
+    </main>
+</body>
+</html>
